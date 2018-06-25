@@ -17,7 +17,7 @@ class Scraper
   end
 
   def get_page(page)
-      Nokogiti::HTML(page)
-  end 
+      doc = Nokogiti::HTML(page)
+  end
 
 end
